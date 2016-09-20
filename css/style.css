@@ -9,9 +9,9 @@ body {
 }
 h1 {
 	-webkit-animation-name: header; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
     animation-name: header;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     font-size: 64px;
     font-family: 'Alfa Slab One', cursive;
@@ -45,9 +45,10 @@ button {
 /* Text Animation */
 @-webkit-keyframes header {
     0%   {color: white;}
-    25%  {color: black;}
     50%  {color: white;}
     100% {color: black;}
+    50%  {color: white;}
+    0%   {color: white;}
 }
 #player {
 	width: 50%;
