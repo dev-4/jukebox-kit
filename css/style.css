@@ -44,10 +44,10 @@ button {
 }
 /* Text Animation */
 @-webkit-keyframes header {
-    0%   {color: red;}
-    25%  {color: yellow;}
-    50%  {color: blue;}
-    100% {color: green;}
+    0%   {color: white;}
+    25%  {color: black;}
+    50%  {color: white;}
+    100% {color: black;}
 }
 #player {
 	width: 50%;
