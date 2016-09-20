@@ -4,11 +4,13 @@
 }
 body {
 	text-align: center;
+    background-color: black;
+    right: 0;
 }
 h1 {
-	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+	-webkit-animation-name: header; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
-    animation-name: example;
+    animation-name: header;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     font-size: 64px;
@@ -18,8 +20,8 @@ h1 {
     margin: 0;
 }
 button {
-    top: 500px;
 	font-size: 32px;
+    right: 100px;
 }
 /* Background Video */
 .fullscreen-bg {
@@ -42,7 +44,7 @@ button {
     height: 100%;
 }
 /* Text Animation */
-@-webkit-keyframes example {
+@-webkit-keyframes header {
     0%   {color: red;}
     25%  {color: yellow;}
     50%  {color: blue;}

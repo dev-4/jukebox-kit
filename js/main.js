@@ -1,6 +1,6 @@
 function loadSong1(){
     var sourceVid=document.getElementById('bg');
-	sourceVid.src='video/data.mp4';
+	sourceVid.src='video/killers.mp4';
 
     var player=document.getElementById('player');
     
@@ -15,7 +15,7 @@ function loadSong1(){
 }
 function loadSong2(){
     var sourceVid=document.getElementById('bg');
-	sourceVid.src='video/data.mp4';
+	sourceVid.src='video/hitman.mp4';
 
     var player=document.getElementById('player');
     
@@ -30,7 +30,7 @@ function loadSong2(){
 }
 function loadSong3(){
     var sourceVid=document.getElementById('bg');
-	sourceVid.src='video/data.mp4';
+	sourceVid.src='video/corruption.mp4';
 
     var player=document.getElementById('player');
     
