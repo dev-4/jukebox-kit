@@ -46,7 +46,7 @@ button {
 @-webkit-keyframes header {
     0%   {color: white;}
     50%  {color: white;}
-    100% {color: black;}
+    100% {color: rgba(255, 255, 255, 0);}
     50%  {color: white;}
     0%   {color: white;}
 }
