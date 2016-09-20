@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Jukebox Starter Kit</title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div class="fullscreen-bg">
+        <video id="bg" loop muted autoplay class="fullscreen-bg__video">
+            <source id="sourceVid" src="video/data.mp4" type="video/mp4">
+        </video>
+    </div>
+	<h1>Jukebox Starter Kit</h1>
+    <audio id="player" controls="controls">
+        <source id="sourceMp3" src="" type="audio/mp3" />
+        <source id="sourceOgg" src="" type="audio/ogg" />
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <br>
+    <button onclick='loadSong1()'>Play: Killers</button>
+    <br>
+    <br>
+    <button onclick='loadSong2()'>Play: Hitman</button>
+    <br>
+    <br>
+    <button onclick='loadSong3()'>Play: Corruption</button>
+    <br>
+    <br>
+    <button id="ee" onclick='easterEgg()'>DON'T CLICK ME</button>
+</body>
+</html>
